@@ -4,7 +4,7 @@ class ComputerBase
         var options = {
             isStatic: true
           };
-          this.image = loadImage("assets/base1.png");
+          this.image = loadImage("base1.png");
           this.width = width;
           this.height = height;
           this.body = Bodies.rectangle(x, y, this.width, this.height, options);
