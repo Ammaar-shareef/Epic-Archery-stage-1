@@ -4,7 +4,7 @@ class Player
         var options = {
             isStatic: true
           };
-          this.image = loadImage("assets/player.png");
+          this.image = loadImage("player.png");
           this.width = width;
           this.height = height;
           this.body = Bodies.rectangle(x, y, this.width, this.height, options);
